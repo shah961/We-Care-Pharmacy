@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>We Care Pharmacy | Paragon City, Barki Road, Lahore</title>
+    <meta name="description" content="We Care Pharmacy in Paragon City, Lahore offers genuine medicines, healthcare products, baby care, and personal care. Located near Gate No. 1, Barki Road. Call 0321 3725000.">
+    <meta name="keywords" content="We Care Pharmacy Lahore, Pharmacy in Paragon City, Pharmacy in Lahore, Paragon City Pharmacy, Pharmacy near Paragon City, Pharmacy Barki Road Lahore, Healthcare products Lahore">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#0b1320">
+    <!-- Canonical Placeholder: Replace YOUR-DOMAIN-HERE prior to deployment -->
+    <link rel="canonical" href="https://YOUR-DOMAIN-HERE/">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="We Care Pharmacy | Trusted Healthcare in Paragon City, Lahore">
+    <meta property="og:description" content="Your reliable neighborhood pharmacy at Gate No. 1, Paragon City, Barki Road, Lahore. Call 0321 3725000 for product availability and assistance.">
+    <meta property="og:url" content="https://YOUR-DOMAIN-HERE/">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1576602976047-174e57a47881?auto=format&fit=crop&w=1200&q=80">
+
+    <!-- Stylesheets -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Schema.org JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Pharmacy",
+      "name": "We Care Pharmacy",
+      "image": "https://images.unsplash.com/photo-1576602976047-174e57a47881?auto=format&fit=crop&w=800&q=80",
+      "telephone": "+923213725000",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Gate No. 1, Paragon City, Barki Road",
+        "addressLocality": "Lahore",
+        "addressRegion": "Punjab",
+        "addressCountry": "PK"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 31.5204,
+        "longitude": 74.4500
+      },
+      "url": "https://YOUR-DOMAIN-HERE/",
+      "priceRange": "$$"
+    }
+    </script>
+
+    <!-- Essential Animation Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
+    <script src="animations.js" defer></script>
+    <script src="main.js" defer></script>
+</head>
+<body>
+
+    <!-- Announcement Bar -->
+    <aside class="announcement-bar" aria-label="Location notice">
+        <div class="container announcement-content">
+            <span>📍 Located at Gate No. 1, Paragon City, Barki Road, Lahore</span>
+            <a href="tel:03213725000" class="announcement-link">Call: 0321 3725000</a>
+        </div>
+    </aside>
+
+    <!-- Global Header -->
+    <header class="site-header" id="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="brand-logo" aria-label="We Care Pharmacy Home">
+                <span class="logo-title">WE CARE</span>
+                <span class="logo-sub">PHARMACY</span>
+            </a>
+
+            <nav class="desktop-nav" aria-label="Main Navigation">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link active">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="products.html" class="nav-link">Products</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <a href="tel:03213725000" class="btn btn-primary btn-sm">Call Now</a>
+                <button class="mobile-menu-toggle" id="menu-toggle-btn" aria-label="Open Navigation Menu" aria-expanded="false" aria-controls="mobile-nav-menu">
+                    <span class="hamburger-bar"></span>
+                    <span class="hamburger-bar"></span>
+                    <span class="hamburger-bar"></span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Overlay Menu -->
+        <div class="mobile-nav-overlay" id="mobile-nav-menu" aria-hidden="true">
+            <nav class="mobile-nav-container" aria-label="Mobile Navigation">
+                <div class="mobile-nav-header">
+                    <span class="logo-title">WE CARE</span>
+                    <button class="mobile-menu-close" id="menu-close-btn" aria-label="Close Navigation Menu">&times;</button>
+                </div>
+                <ul class="mobile-nav-list">
+                    <li><a href="index.html" class="mobile-nav-link active">Home</a></li>
+                    <li><a href="about.html" class="mobile-nav-link">About</a></li>
+                    <li><a href="services.html" class="mobile-nav-link">Services</a></li>
+                    <li><a href="products.html" class="mobile-nav-link">Products</a></li>
+                    <li><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+                </ul>
+                <div class="mobile-nav-footer">
+                    <a href="tel:03213725000" class="btn btn-primary btn-block">Call 0321 3725000</a>
+                    <p class="mobile-location-text">Gate No. 1, Paragon City, Barki Road, Lahore</p>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <div class="badge badge-accent">Community Pharmacy in Lahore</div>
+                    <h1 class="hero-title">Your Trusted Pharmacy in Paragon City</h1>
+                    <p class="hero-description">We Care Pharmacy provides convenient access to genuine pharmacy items, wellness products, and healthcare essentials for the local community in Paragon City, Lahore.</p>
+                    <div class="hero-cta-group">
+                        <a href="tel:03213725000" class="btn btn-primary btn-lg">Call We Care Pharmacy</a>
+                        <a href="https://www.google.com/maps/search/?api=1&query=We+Care+Pharmacy+Gate+No+1+Paragon+City+Barki+Road+Lahore" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-lg">Get Directions</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div id="webgl-container" class="webgl-canvas-container" aria-hidden="true"></div>
+                    <div class="hero-fallback-card" id="hero-fallback">
+                        <div class="card-icon">🏥</div>
+                        <h3>We Care Pharmacy</h3>
+                        <p>Gate No. 1, Paragon City, Barki Road, Lahore</p>
+                        <span class="status-badge">Open for Assistance</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Trust Indicators Section -->
+        <section class="section-padding bg-surface">
+            <div class="container">
+                <div class="grid grid-4 gap-lg">
+                    <div class="trust-card">
+                        <div class="trust-icon">📍</div>
+                        <h3>Conveniently Located</h3>
+                        <p>Paragon City, Barki Road, Lahore</p>
+                    </div>
+                    <div class="trust-card">
+                        <div class="trust-icon">🚪</div>
+                        <h3>Easy to Reach</h3>
+                        <p>Located near Gate No. 1</p>
+                    </div>
+                    <div class="trust-card">
+                        <div class="trust-icon">📞</div>
+                        <h3>Direct Contact</h3>
+                        <p>Call 0321 3725000 directly</p>
+                    </div>
+                    <div class="trust-card">
+                        <div class="trust-icon">💊</div>
+                        <h3>Healthcare Focused</h3>
+                        <p>Pharmacy & personal care essentials</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Preview Section -->
+        <section class="section-padding">
+            <div class="container grid grid-2 gap-xl align-center">
+                <div class="about-image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1586015555751-63bb77f4322a?auto=format&fit=crop&w=800&q=80" alt="Modern pharmacy counter display — illustrative image" class="rounded-img shadow-lg" loading="lazy" width="800" height="600">
+                </div>
+                <div class="about-text-content">
+                    <span class="section-subtitle">ABOUT WE CARE PHARMACY</span>
+                    <h2 class="section-title">Dedicated to the Paragon City Community</h2>
+                    <p class="text-muted">We Care Pharmacy was established to serve the residents of Paragon City and the greater Barki Road area with reliable healthcare access. We prioritize customer service, authenticity, and neighborhood convenience.</p>
+                    <ul class="feature-list">
+                        <li>Genuine, high-quality pharmaceuticals and daily supplements</li>
+                        <li>Dedicated customer service right at Gate No. 1</li>
+                        <li>Clean, modern, and accessible local setup</li>
+                    </ul>
+                    <a href="about.html" class="btn btn-secondary">Learn More About Us</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Overview Section -->
+        <section class="section-padding bg-surface">
+            <div class="container">
+                <div class="text-center max-w-2xl margin-center mb-xl">
+                    <span class="section-subtitle">OUR SERVICES</span>
+                    <h2 class="section-title">Comprehensive Healthcare Support</h2>
+                    <p class="text-muted">Explore how We Care Pharmacy assists local families with everyday pharmacy and health essentials.</p>
+                </div>
+                <div class="grid grid-3 gap-lg">
+                    <div class="card service-card">
+                        <div class="card-body">
+                            <div class="card-icon-wrapper">📦</div>
+                            <h3 class="card-title">Pharmacy Essentials</h3>
+                            <p class="text-muted">Wide range of registered pharmaceuticals and daily health maintenance supplies.</p>
+                            <a href="services.html" class="card-link">Read Details &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="card service-card">
+                        <div class="card-body">
+                            <div class="card-icon-wrapper">🔍</div>
+                            <h3 class="card-title">Stock Availability Checks</h3>
+                            <p class="text-muted">Call our direct helpline to check if your required medicine is currently in stock.</p>
+                            <a href="tel:03213725000" class="card-link">Call 0321 3725000 &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="card service-card">
+                        <div class="card-body">
+                            <div class="card-icon-wrapper">🚚</div>
+                            <h3 class="card-title">Local Delivery Enquiries</h3>
+                            <p class="text-muted">Inquire directly about doorstep delivery availability within Paragon City.</p>
+                            <a href="contact.html" class="card-link">Inquire Now &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Categories Preview -->
+        <section class="section-padding">
+            <div class="container">
+                <div class="text-center max-w-2xl margin-center mb-xl">
+                    <span class="section-subtitle">PRODUCT CATEGORIES</span>
+                    <h2 class="section-title">Everything You Need For Health & Wellness</h2>
+                </div>
+                <div class="grid grid-4 gap-md">
+                    <div class="category-card">
+                        <img src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=400&q=300" alt="Medicines and health supplements — illustrative image" class="category-img" loading="lazy" width="400" height="300">
+                        <div class="category-overlay">
+                            <h3>Medicines</h3>
+                            <p>Prescription & OTC items</p>
+                        </div>
+                    </div>
+                    <div class="category-card">
+                        <img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=400&q=300" alt="Personal care products on shelf — illustrative image" class="category-img" loading="lazy" width="400" height="300">
+                        <div class="category-overlay">
+                            <h3>Personal Care</h3>
+                            <p>Skincare & hygiene</p>
+                        </div>
+                    </div>
+                    <div class="category-card">
+                        <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=400&q=300" alt="Baby care products display — illustrative image" class="category-img" loading="lazy" width="400" height="300">
+                        <div class="category-overlay">
+                            <h3>Baby Care</h3>
+                            <p>Infant nutrition & care</p>
+                        </div>
+                    </div>
+                    <div class="category-card">
+                        <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=400&q=300" alt="Wellness and diagnostic instruments — illustrative image" class="category-img" loading="lazy" width="400" height="300">
+                        <div class="category-overlay">
+                            <h3>Wellness Devices</h3>
+                            <p>Monitors & essentials</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-xl">
+                    <a href="products.html" class="btn btn-outline">Explore Product Catalog</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Location & Directions CTA Section -->
+        <section class="section-padding bg-surface">
+            <div class="container grid grid-2 gap-xl align-center">
+                <div>
+                    <span class="section-subtitle">VISIT US TODAY</span>
+                    <h2 class="section-title">Conveniently Located at Gate No. 1</h2>
+                    <p class="text-muted">Situated right at the primary entry of Paragon City on Barki Road, Lahore. Easy access with convenient parking for neighborhood visitors.</p>
+                    <div class="contact-details-box mt-md">
+                        <p><strong>Address:</strong> Gate No. 1, Paragon City, Barki Road, Lahore, Punjab, Pakistan</p>
+                        <p><strong>Direct Helpline:</strong> <a href="tel:03213725000">0321 3725000</a></p>
+                    </div>
+                    <div class="mt-lg">
+                        <a href="https://www.google.com/maps/search/?api=1&query=We+Care+Pharmacy+Gate+No+1+Paragon+City+Barki+Road+Lahore" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Get Directions on Map</a>
+                    </div>
+                </div>
+                <div class="map-container-wrapper">
+                    <div class="map-placeholder-box">
+                        <p class="map-placeholder-title">Interactive Map Frame</p>
+                        <p class="text-muted">Gate No. 1, Paragon City, Barki Road, Lahore</p>
+                        <a href="https://www.google.com/maps/search/?api=1&query=We+Care+Pharmacy+Gate+No+1+Paragon+City+Barki+Road+Lahore" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm mt-md">Open in Google Maps</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Preview -->
+        <section class="section-padding">
+            <div class="container max-w-3xl margin-center">
+                <div class="text-center mb-xl">
+                    <span class="section-subtitle">FREQUENTLY ASKED QUESTIONS</span>
+                    <h2 class="section-title">Common Inquiries</h2>
+                </div>
+                <div class="faq-accordion">
+                    <details class="faq-item" open>
+                        <summary class="faq-question">Where is We Care Pharmacy located?</summary>
+                        <div class="faq-answer">
+                            <p>We Care Pharmacy is conveniently situated at Gate No. 1, Paragon City, Barki Road, Lahore, Punjab, Pakistan.</p>
+                        </div>
+                    </details>
+                    <details class="faq-item">
+                        <summary class="faq-question">How can I check if a specific medicine is available?</summary>
+                        <div class="faq-answer">
+                            <p>You can call us directly at 0321 3725000 to verify medicine stock before visiting.</p>
+                        </div>
+                    </details>
+                    <details class="faq-item">
+                        <summary class="faq-question">Does We Care Pharmacy offer home delivery?</summary>
+                        <div class="faq-answer">
+                            <p>Delivery availability should be confirmed directly with the pharmacy by calling 0321 3725000.</p>
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Global Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-top grid grid-4 gap-lg">
+                <div class="footer-brand-col">
+                    <a href="index.html" class="brand-logo footer-logo">
+                        <span class="logo-title">WE CARE</span>
+                        <span class="logo-sub">PHARMACY</span>
+                    </a>
+                    <p class="footer-desc mt-sm">Your reliable neighborhood pharmacy in Paragon City, Lahore. Providing access to quality healthcare items and dependable assistance.</p>
+                </div>
+                <div class="footer-links-col">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-col">
+                    <h4 class="footer-heading">Legal Pages</h4>
+                    <ul class="footer-links">
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="terms-and-conditions.html">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact-col">
+                    <h4 class="footer-heading">Contact Info</h4>
+                    <p class="footer-contact-item"><strong>Address:</strong> Gate No. 1, Paragon City, Barki Road, Lahore, Punjab, Pakistan</p>
+                    <p class="footer-contact-item"><strong>Phone:</strong> <a href="tel:03213725000">0321 3725000</a></p>
+                    <a href="tel:03213725000" class="btn btn-primary btn-sm mt-sm">Call Now</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year">2026</span> We Care Pharmacy. All rights reserved.</p>
+                <p class="disclaimer-text">Medical Disclaimer: Information on this website is for general reference only. Consult qualified healthcare professionals for medical advice.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
